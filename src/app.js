@@ -3,6 +3,15 @@ import { render } from 'react-dom';
 import Pet from "./Pet";
 
 const App = () => {
+  return (
+    <div>
+      <h1>Adopt Me!</h1>
+      <
+    </div>
+  )
+}
+
+const App = () => {
   return React.createElement("div", {}, [
     React.createElement("h1", {}, "Adopt Me!"),
     React.createElement(Pet, {
